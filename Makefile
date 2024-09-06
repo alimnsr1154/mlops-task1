@@ -1,9 +1,12 @@
-install:
- pip install -r requirements.txt
+# Makefile
 
-test:
- pytest
+install:
+	pip install -r requirements.txt
 
 run:
- flask run
+	python app.py
+
+test:
+	pytest test.py
+
 
