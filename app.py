@@ -1,5 +1,4 @@
 # app.py
-
 from flask import Flask, request, jsonify
 from model import train_model
 
